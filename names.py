@@ -1,2 +1,5 @@
-name = input("What's your name? ")
-print(f"Hello, {name}")
+with open("name.txt", "r") as file:
+    lines = file.readlines()
+    
+for line in lines: 
+    print("Hello, " + line.strip())
