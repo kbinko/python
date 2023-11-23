@@ -37,3 +37,7 @@ plt.ylabel('y')
 plt.title('Regresja liniowa')
 plt.legend()
 plt.show()
+
+#Średni błąd bezwzględny i względny jest wysoki,
+# ponieważ użyliśmy aproksymacji liniowej do zbioru danych,
+# które są nieliniowe, co sprawia że aproksymacja nie jest dokładna
