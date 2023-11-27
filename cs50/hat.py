@@ -1,1 +1,5 @@
-print(type({}))
+class Hat:
+    ...
+
+
+hat = Hat()
